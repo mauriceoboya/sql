@@ -1,18 +1,17 @@
 show databases;
-CREATE  database school;
+CREATE   DATABASE school;
 use school;
+CREATE table class(
+classid INT PRIMARY KEY,
+stream varchar(20),
+level int,
 
-create table class(
- classid int PRIMARY KEY,
- stream Varchar(255),
- levels int
 );
-
-CREATE  table student(
-studentId int,
-first_name varchar(200),
-last_name varchar(200),
+CREATE  TABLE students(
+studentid INT,
+first_name Varchar(225),
+second_name varchar(200),
 email varchar(20),
 classid int,
-FOREIGN KEY (classid) REFERENCES class(classid)
+FOREIGN KEY (classid)  REFERENCES class(classid)
 );
