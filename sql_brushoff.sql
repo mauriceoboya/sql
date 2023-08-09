@@ -23,4 +23,4 @@ INSERT  INTO  class values
 (3,'green',3),
 (4,'green',4)
 
-select * from class;
+select * from class limit 1;
