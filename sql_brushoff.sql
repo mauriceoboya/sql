@@ -11,6 +11,7 @@ PostalCode varchar(100),
 Country varchar (100)
 );
 
+
 INSERT INTO  Sales VALUES(
 1,'Afreds Futterkiste','Maria Anders','Obere Str. 57','Berlin','12209','Germany'),
 (2,'Ana Trujillo Emparedados y Helados','Ana  Trujilo',' Ava de la 222','Mexico D.F','0032','Mexico')

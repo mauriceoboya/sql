@@ -22,4 +22,4 @@ prodnumber INT
 INSERT  into products values(1,'audi A4',23),
 (2,'BMW 320i',20);
 
-SELECT  * from products limit 1;
+SELECT  DISTINCT * from products WHERE product='BMW 320i';
